@@ -1,0 +1,11 @@
+1.
+socket.SOCK_STREAM 
+2.
+client initializes. server listens.
+3.
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+4.
+we recieved clients ip and port
+5.
+the server recived an empty byte string signaling the client is now closed.
+6.
